@@ -23,7 +23,7 @@ namespace SpaceAssessment
                                                          && !f.HasLightnings
                                                          && (f.CloudsType != WeatherCloudsType.Cumulus
                                                              && f.CloudsType != WeatherCloudsType.Nimbus))
-                                              .OrderBy(f => (f.WindSpeed / maxWindSpeed + f.Humidity / maxHumidity))
+                                              .OrderBy(f => ((decimal)f.WindSpeed / maxWindSpeed + (decimal)f.Humidity / maxHumidity))
                                               .FirstOrDefault();
                 return new
                 {
@@ -40,7 +40,7 @@ namespace SpaceAssessment
                     Day = x.DayForecast?.Day
                 }).ToList(),
                 BestSpaceport = spaceportsBestDays.Where(x => x.DayForecast != null)
-                                                  .OrderBy(x => (x.DayForecast!.WindSpeed / maxWindSpeed + x.DayForecast.Humidity / maxHumidity))
+                                                  .OrderBy(x => ((decimal)x.DayForecast!.WindSpeed / maxWindSpeed + (decimal)x.DayForecast.Humidity / maxHumidity))
                                                   .ThenBy(x => x.Spaceport.DistanceToEquator)
                                                   .Select(x => new SpaceportBestDay
                                                   {
