@@ -11,11 +11,11 @@ namespace SpaceAssessment
     {
         private static Dictionary<string, int> spaceportDistances = new()
         {
-            { "Kourou, French Guyana", 1 },
-            { "Cape Canaveral, USA", 2 },
-            { "Kodiak, USA", 3 },
-            { "Tanegashima, Japan", 4 },
-            { "Mahia, New Zealand", 5 }
+            { "Kourou, French Guyana", 575 },
+            { "Cape Canaveral, USA", 3162 },
+            { "Kodiak, USA", 6425 },
+            { "Tanegashima, Japan", 3968 },
+            { "Mahia, New Zealand", 4334 }
         };
 
         private static string folderPath = "";

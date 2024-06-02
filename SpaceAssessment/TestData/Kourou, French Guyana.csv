@@ -1,7 +1,7 @@
 Day,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
 Temperature (C),28,13,29,30,31,32,31,30,40,28,27,29,31,32,15
-Wind (m/s),15,9,12,14,11,10,6,5,2,3,2,3,2,15,15
-Humidity (%),2,0,30,35,60,70,40,28,30,20,25,20,15,32,15
-Precipitation (%),28,0,0,6,6,8,80,0,0,0,5,5,2,0,15
+Wind (m/s),10,9,12,14,11,10,6,5,2,3,2,3,2,15,15
+Humidity (%),0,0,30,35,60,70,40,28,30,20,25,20,15,32,15
+Precipitation (%),0,0,0,6,6,8,80,0,0,0,5,5,2,0,15
 Lightning,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No, Yes
-Clouds,Nimbus,Nimbus, Stratus,Cumulus ,Stratus ,Stratus ,Cumulus,Stratus,Cirrus,Cumulus,Stratus,Cirrus,Cirrus, Stratus. Stratus,
+Clouds, Stratus,Nimbus, Stratus,Cumulus ,Stratus ,Stratus ,Cumulus,Stratus,Cirrus,Cumulus,Stratus,Cirrus,Cirrus, Stratus. Stratus,
